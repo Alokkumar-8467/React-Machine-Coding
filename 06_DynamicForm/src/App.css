@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.form input{
+  border: 1px solid red;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 12px;
+  height: 40px;
+}
+
+.form select{
+  border: 1px solid red;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 6px;
+  height: 40px;
+}
